@@ -16,7 +16,7 @@ public void setup()
   // 0 is black
 
   //tee.test();
-  System.out.println(unhex(ack));
+  //System.out.println(unhex(ack));
   for(int i = 0; i < 200; i++) {
    cheez[i] = new Star(); 
   }
@@ -31,11 +31,12 @@ public void draw()
   }
   tee.move();
   if(drawShip){
+    opacity = 255;
     count = 0;
     tee.show();
   } else {
     if(!(get((int)tee.getMyCenterX(),(int)tee.getMyCenterY()) == 0 ||get((int)tee.getMyCenterX(),(int)tee.getMyCenterY())== 16710770)) {
-          System.out.println("ah");
+          //System.out.println("ah");
           if(count == 100) {
             drawShip = true;
           }
