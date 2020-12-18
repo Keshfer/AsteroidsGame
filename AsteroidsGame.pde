@@ -93,8 +93,8 @@ public void draw()
   } else {
     tee.accelerate(0);
   }
-  System.out.println(tee.myCenterX);
-  System.out.println(tee.myCenterY);
+  //System.out.println(tee.myCenterX);
+  //System.out.println(tee.myCenterY);
 }
 
 
